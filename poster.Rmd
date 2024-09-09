@@ -2,7 +2,7 @@
 main_topsize: 0.15 #percent coverage of the poster
 main_bottomsize: 0.1
 author:
-  - name: 'Eylül Harputluoglu'
+  - name: '<u>Eylül Harputluoglu</u>'
     affil: 1, 2, 3 <i style="font-size:44px" class="fa">&#xf0e0;</i>
     email: 'eyluelgoekce.harputluoglu@uzh.ch'
   - name: 'Jürgen Bernard'
@@ -20,7 +20,7 @@ affiliation:
     address: 'Department of Computer Science, University of Zurich'
   - num: 3
     address: 'URPP Evolution in Action, Department of Plant and Microbial Biology, University of Zurich<br><br><i style="font-size:24px" class="fa">&#xf0e0;</i>  eyluelgoekce.harputluoglu<span>&#64;</span>uzh.ch | deepak.tanwar<span>&#64;</span>evolution.uzh.ch'
-title: '<span class="brsmall"></span> Unravelling Epigenomic Diversity in <i>Arabidopsis thaliana</i>: Integrating JSD Analysis and Methylator Framework for Climate Adaptation Insights'
+title: '<span class="brsmall"></span> Unravelling Epigenomic Diversity in <i>Arabidopsis thaliana</i>: Integrating JSD Analysis and `Methylator´ Framework for Climate Adaptation Insights'
 titletext_fontfamily: "Arial"
 title_textsize: "70pt"
 titlebox_bgcol: "#8B0000"  # Dark red 
@@ -30,7 +30,7 @@ titlebox_borderwidth: "1cm"
 title_textcol: "#ffffff"
 logoleft_name: "figures/output-onlinepngtools.png"
 # logoright_name: "figures/QR_poster_transp_white.png"
-logoright_name: "figures/QR_800.png"
+logoright_name: "figures/qr.png"
 author_textsize: "40pt"
 author_textcol: "#000066"
 affiliation_textsize: "30pt"
@@ -329,13 +329,14 @@ knitr::include_graphics("figures/world_map.png")
 
 This pipeline supports DNA methylation analysis by utilizing divergence calculations 
 and generating outputs that can be used for additional statistical testing or visualization
-for further analysis.
+for further analysis.We used the `Methylator´ Framework for the data preparation. 
+
 
 <figure>
 
 <center>
 
-<img src="figures/pipeline_.png" width="100%" style="display:block"/>
+<img src="figures/pipeline_.png" width="950" style="display:block"/>
 <br>
 
 <figcaption><b>Figure 6:</b> Overview of the DNA methylation analysis pipeline</figcaption>
@@ -362,7 +363,7 @@ methylation context-specific changes across these temperature conditions.
 
 <center>
 
-<img src="figures/temperature_all.png" width="100%" style="display:block"/>
+<img src="figures/temperature_all.png" width="950" style="display:block"/>
 <br>
 
 <figcaption><b>Figure 7:</b> Jensen-Shannon Divergence (JSD) as a function of
@@ -389,9 +390,9 @@ of how genomic context influences methylation patterns and gene regulation in re
 <figure>
   <center>
     <img src="figures/g_regions.jpg" width="15.5%" style="display:inline-block;"/>
-    <img src="figures/chg.jpg" width="20%" style="display:inline-block;"/>
-    <img src="figures/chh.jpg" width="20%" style="display:inline-block;"/>
-    <img src="figures/cpg.jpg" width="20%" style="display:inline-block;"/>
+    <img src="figures/chg.jpg" width="22%" style="display:inline-block;"/>
+    <img src="figures/chh.jpg" width="22%" style="display:inline-block;"/>
+    <img src="figures/cpg.jpg" width="22%" style="display:inline-block;"/>
     <img src="figures/bar.jpg" width="5%" style="display:inline-block;"/>
     <br>
     <figcaption><b>Figure 8:</b> Heatmap comparison of methylation levels (Meth) and 
@@ -417,7 +418,7 @@ knitr::include_graphics("figures/bar.jpg")
 
 <center>
 
-<img src="figures/eh-8-1.png" width="100%" style="display:block"/>
+<img src="figures/eh-8-1.png" width="950" style="display:block"/>
 <br>
 
 <figcaption><b>Figure 9:</b> Methylation and JSD patterns in CpG sites across intergenic regions under three temperature conditions. The color gradient indicates the level of methylation and JSD, with red representing higher values and blue representing lower values.</figcaption>
@@ -445,13 +446,12 @@ Different gene expression profiles among samples at different temperatures (10°
 
 
 # Conclusion
-
-This poster represents the results of our analysis on how temperature influences DNA methylation 
-and gene expression in Arabidopsis thaliana. Using our data analysis pipeline, we examined methylation levels 
-and Jensen-Shannon Divergence under different temperature conditions (10°C, 16°C, 22°C) to investigate how 
-environmental factors might affect epigenetic regulation. Through this analysis, we aimed to identify 
-temperature-dependent patterns of methylation and gene expression changes, with further investigation needed 
-to explore the long-term impacts on plant adaptation and stress responses.
-
+<ul>
+    <li><strong>Objective</strong>: Investigate how temperature affects DNA methylation and gene expression in <i>Arabidopsis thaliana</i>.</li>
+    <li><strong>Methodology</strong>: Analyzed methylation levels and Jensen-Shannon Divergence at 10°C, 16°C, and 22°C.</li>
+    <li><strong>Results</strong>: Identified temperature-dependent patterns in methylation and gene expression.</li>
+    <li><strong>Implications</strong>: Improved understanding of plant epigenetic responses to temperature.</li>
+    <li><strong>Future Directions</strong>: Explore specific genes and other environmental factors.</li>
+</ul>
 
 
